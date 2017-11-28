@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo noupdate="1">
+    <record id="email_force_internal_models" model="ir.config_parameter">
+        <field name="key">email_force_internal.models</field>
+        <field name="value">[]</field>
+    </record>
+</odoo>
