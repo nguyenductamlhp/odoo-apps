@@ -9,7 +9,8 @@
                 <page name="theme" string="Theme">
                     <group name="bg_image" string="Background Image">
                         <group>
-                            <field name="background_image" />
+                            <field name="background_image"
+                                widget="image" class="oe_avatar"/>
                         </group>
                         <group>
                             <field name="background_allow_users" />

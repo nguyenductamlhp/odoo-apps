@@ -8,7 +8,8 @@
             <xpath expr="//group[last()]" position="after">
                 <field name="background_allow_users" invisible="1"/>
                 <group name="bg_image" attrs="{'invisible': [('background_allow_users', '=', False)]}">
-                    <field name="background_image" />
+                    <field name="background_image"
+                        widget="image" class="oe_avatar"/>
                 </group>
             </xpath>
         </field>
